@@ -1,0 +1,64 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Expo
+.expo/
+.expo-shared/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native builds
+android/
+ios/
+*.apk
+*.aab
+*.ipa
+*.keystore
+!debug.keystore
+
+# Metro / bundler
+.metro-health-check*
+*.jsbundle
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+service-account*.json
+
+# Supabase
+supabase/.branches/
+supabase/.temp/
+supabase/.env
+
+# Build output
+build/
+out/
+*.tsbuildinfo
+
+# Testing
+coverage/
+
+# Logs
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+pnpm-debug.*
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large local media (seed assets are generated, not committed)
+seed/assets/**/*.glb
+seed/assets/**/*.mp4
+seed/assets/**/*.mp3
